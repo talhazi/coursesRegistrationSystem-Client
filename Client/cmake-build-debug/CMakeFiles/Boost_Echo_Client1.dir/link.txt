@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/Boost_Echo_Client1.dir/src/Client.cpp.o CMakeFiles/Boost_Echo_Client1.dir/src/connectionHandler.cpp.o  -o Boost_Echo_Client1  -lboost_system -pthread 

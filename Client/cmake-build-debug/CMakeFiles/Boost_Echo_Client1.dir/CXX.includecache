@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/connectionHandler.h
+string
+-
+iostream
+-
+boost/asio.hpp
+-
+
+/home/spl211/Desktop/Talchok/Boost_Echo_Client1/src/Client.cpp
+string
+-
+thread
+-
+boost/algorithm/string.hpp
+-
+boost/lexical_cast.hpp
+-
+condition_variable
+-
+boost/asio/ip/tcp.hpp
+-
+connectionHandler.h
+-
+
